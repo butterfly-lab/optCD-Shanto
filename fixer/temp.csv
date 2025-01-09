@@ -1,0 +1,31 @@
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+apache;zeppelin;frontend.yml;run-e2e-tests-in-zeppelin-web;107;107;./mvnw clean install -DskipTests -am -pl zeppelin-web -Pweb-classic -Pspark-scala-2.12 -Pspark-3.4 -Pweb-dist ${MAVEN_ARGS} -Dfrontend-maven-plugin.node.skip.npm=true ;./mvnw clean install -DskipTests -am -pl zeppelin-web -Pweb-classic -Pspark-scala-2.12 -Pspark-3.4 -Pweb-dist ${MAVEN_ARGS
+apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);1;1;./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -Dmaven.surefire.reportDirectory=target/test-reports;"./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;"
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);1;1;./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -Dmaven.surefire.reportDirectory=target/surefire-reports ;"./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;"
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);1;1;./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -Dmaven.surefire.reportDirectory=target/surefire-reports ;"./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;"
+TheAlgorithms;Java;infer.yml;run_infer;6;1;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+apache;incubator-seata;test-ubuntu.yml;test (8, ubuntu, 2.5.15         -D spring-framework.version=5.3.27);1;1;./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn -Dmaven.surefire.reportDirectory=target/surefire-reports ;"./mvnw -T 4C clean test -P args-for-client-test -Dspring-boot.version=${{ matrix.springboot }} -e -B -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn;"
+TheAlgorithms;Java;infer.yml;run_infer;6;1;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+TheAlgorithms;Java;codeql.yml;analyze;0;0;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+TheAlgorithms;Java;infer.yml;run_infer;6;1;mvn clean infer --fail-on-issue --print-logs --no-progress-bar -- mvn test -Dmaven.test.failure.ignore=true;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+TheAlgorithms;Java;infer.yml;run_infer;6;1;mvn clean infer --fail-on-issue --print-logs --no-progress-bar -- mvn test -Dmaven.test.failure.ignore=true;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+TheAlgorithms;Java;codeql.yml;analyze;0;0;mvn clean infer --fail-on-issue --print-logs --no-progress-bar -- mvn test -Dmaven.test.failure.ignore=true;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+TheAlgorithms;Java;infer.yml;run_infer;6;1;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+TheAlgorithms;Java;infer.yml;run_infer;6;1;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+TheAlgorithms;Java;codeql.yml;analyze;0;0;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"

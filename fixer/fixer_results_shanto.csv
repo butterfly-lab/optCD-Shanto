@@ -1,0 +1,5 @@
+owner;repo;yaml_filename;job;all_unused;maven_unused;fix_suggestion;old_commands
+TheAlgorithms;Java;infer.yml;run_infer;6;1;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"
+TheAlgorithms;Java;codeql.yml;analyze;0;0;mvn clean infer --fail-on-issue --print-logs --no-progress-bar --  -Dmaven.test.failure.ignore=true test;"mvn clean
+infer --fail-on-issue  --print-logs --no-progress-bar -- mvn test"

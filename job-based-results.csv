@@ -1,0 +1,4 @@
+owner;repo;yaml_filename;job;all_unused;maven_unused
+jhy;jsoup;build.yml;test (ubuntu-latest, 17);2;2
+jhy;jsoup;build.yml;test (ubuntu-latest, 8);2;2
+jhy;jsoup;build.yml;test (ubuntu-latest, 21);2;2
