@@ -77,7 +77,7 @@ from ruamel.yaml.scalarstring import PlainScalarString
 
 def update_mvn_commands_in_yml(new_mvn_command, repo, old_command, clone_directory):
     file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
-    modified_yml_file_path = f"{clone_directory}/.github/workflows/modified-build_1.yml"
+    modified_yml_file_path = f"{clone_directory}/.github/workflows/modified-build.yml"
 
     # Initialize ruamel.yaml with indentation settings
     yaml = YAML()
@@ -269,9 +269,10 @@ for index, row in reader.iterrows():
         print("\n\n")
         update_mvn_commands_in_yml(fix_suggestion_str, repo, old_commands, clone_directory) 
         push_in_ci_and_run_new_command(fix_suggestion_str, unused_dir, repo, clone_directory)
-        exit()
         # save the row to a csv file
         with open(temp_csv, 'a') as f:
             out_df.to_csv(f, sep=';', index=False)
+
+        exit()
     
 out_df.to_csv(output_path, sep=';', index=False)  
